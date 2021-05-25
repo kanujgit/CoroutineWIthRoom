@@ -17,16 +17,11 @@ class SignUpFragment : Fragment() {
     private var param2: String? = null
 
     private var _binding: FragmentSignUpBinding? = null
-
     // This property is only valid between onCreateView and
-// onDestroyView.
+    // onDestroyView.
     private val binding get() = _binding!!
     private lateinit var viewModel: SignUpViewModel
 
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
